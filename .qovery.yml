@@ -1,0 +1,11 @@
+---
+application:
+  name: "monsters-rolodex"
+  project: "Vaccine Notifier"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-monsters-rolodex"
+  routes:
+  - application_name: "monsters-rolodex"
+    paths:
+    - "/*"
